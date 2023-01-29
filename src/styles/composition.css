@@ -1,0 +1,141 @@
+.composition {
+  margin-top: 14rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}
+
+.composition__block-navigate {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  height: 78rem;
+  padding: 14rem 5rem 7rem 5rem;
+}
+
+.composition__title {
+  max-width: 50rem;
+  margin-top: 2.8rem;
+  font-size: 3.2rem;
+  line-height: 1.2;
+  text-align: start
+}
+
+.composition__title-opacity {
+  opacity: 0.3;
+}
+
+.composition__uppertitle {
+  text-align: start;
+}
+
+.composition__block-image {
+  width: 100%;
+  height: 78rem;
+  overflow: hidden;
+  display: flex;
+}
+
+.composition__image {
+  width: 100%;
+  height: 78rem;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  transition: .4s ease;
+}
+
+.composition__image_first {
+  background-image: url("/assets/images/home/introImage.png");
+  transform: scale(1);
+}
+
+.composition__image_second {
+  background-image: url("/assets/images/home/compImage.png");
+  transform: scale(1);
+}
+
+.composition__image_third {
+  background-image: url("/assets/images/home/introimage3.png");
+  transform: scale(1);
+}
+
+.composition__pagination {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 100%;
+  color: #000000;
+  position: relative;
+}
+
+.composition__pagination .swiper-pagination-bullet {
+  width: 5.5rem;
+  height: 5.5rem;
+  background-color: transparent;
+  border: 1px solid black;
+  max-width: 16rem;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .4s ease;
+}
+
+.composition__pagination .swiper-pagination-bullet-active {
+  border-color: #007D75;
+  color: #007D75;
+}
+
+
+.composition__pagination .swiper-pagination-bullet::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("/assets/images/home/icons/star.svg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1.6rem;
+  height: 1.6rem;
+  top: 2rem;
+  transition: .4s ease;
+}
+
+.composition__pagination .swiper-pagination-bullet-active::before {
+  background-image: url("/assets/images/home/icons/starActive.svg");
+}
+
+.composition__pagination .swiper-pagination-bullet:nth-child(1):after {
+  content: "Капсулированные продукты";
+  position: absolute;
+  top: 8rem;
+  left: 0;
+}
+
+.composition__pagination .swiper-pagination-bullet:nth-child(2):after {
+  content: "Попробуйте первые в России жидкие биодобавки с СО2-экстрактами";
+  position: absolute;
+  top: 8rem;
+  max-width: 20rem;
+  left: 26rem;
+}
+
+.composition__pagination .swiper-pagination-bullet:nth-child(3):after {
+  content: "Начните высыпаться на самой высокотехнологичной подушке Somnium";
+  position: absolute;
+  top: 8rem;
+  max-width: 20rem;
+  left: 51rem;
+}
+
+.composition__pagination-block {
+  width: 100%;
+  margin-top: 14rem;
+  padding-right: 7rem;
+}

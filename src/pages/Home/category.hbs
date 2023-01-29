@@ -1,0 +1,11 @@
+<section class="category">
+  <h2 class="category__title title__second-level">Категория</h2>
+  <div class="category__buttons">
+    {{#each categories}}
+    <a href="/#">
+      <img src="{{this.iconLink}}" alt="ссылка" class="category__button-image">
+      {{this.textLink}}
+    </a>
+     {{/each}}
+  </div>
+</section>
