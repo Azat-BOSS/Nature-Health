@@ -1,0 +1,150 @@
+.details {
+  margin-top: 12rem;
+  border-radius: 20px;
+  background-image: url("/assets/images/home/detailsImage.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 132rem;
+  padding: 11rem 4rem 4rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.details__text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.details__button {
+  width: 14.5rem;
+  height: 14.5rem;
+  position: relative;
+  border: none;
+  cursor: pointer;
+}
+
+.details__button::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2.5rem;
+  height: 2.7rem;
+  background-image: url("/assets/images/home/icons/playIcon.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 50%;
+  left: 50%;
+  margin-top: 4rem;
+  transform: translate(-50%, -50%);
+}
+
+.details__button::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 14.5rem;
+  height: 14.5rem;
+  background-image: url("/assets/images/home/icons/textRoundWhite.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  margin-top: 4rem;
+  animation: textAnim 15s infinite linear;
+}
+
+.details__text {
+  color: white;
+  margin-top: 7rem;
+  max-width: 12rem;
+  text-align: center;
+}
+
+.details__main-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  row-gap: 2rem;
+  align-items: flex-end;
+  justify-content: start;
+}
+
+.details__main-block p {
+  max-width: 37rem;
+}
+
+.details__button-info {
+  color: white;
+  border: 1px solid white;
+  width: 18.6rem;
+  height: 3.6rem;
+  margin-right: 19rem;
+  margin-top: 3.7rem;
+}
+
+.details__button-info:hover {
+  border: 1px solid black;
+}
+
+.details__card {
+  position: absolute;
+  bottom: 4rem;
+  left: 4rem;
+  width: 75.2rem;
+  height: 32.5rem;
+  overflow: hidden;
+  background: #eceff0;
+  border-radius: 20px;
+  padding: 5rem;
+}
+.details__card-title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.2rem;
+  color: #1c1c1c;
+  max-width: 32rem;
+}
+
+.details__card-text {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #1c1c1c;
+  opacity: 0.3;
+  max-width: 24.8rem;
+  margin-top: 1rem;
+}
+
+.details__card-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  height: 32rem;
+}
+
+.details__card-quote {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: #1c1c1c;
+  width: 100%;
+  max-width: 38.1rem;
+  margin-top: 7rem;
+}

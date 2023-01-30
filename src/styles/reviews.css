@@ -1,0 +1,67 @@
+.reviews {
+  margin-top: 14rem;
+}
+.reviews__title {
+  text-align: left;
+  font-size: 4.8rem;
+}
+.reviews__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2.2rem;
+  row-gap: 2.2rem;
+  margin-top: 7.2rem;
+}
+.reviews__block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.2rem;
+}
+.reviews__block-upper {
+  display: flex;
+  column-gap: 2.2rem;
+}
+.reviews__block-image {
+  width: 10.9rem;
+  height: 10.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #1c1c1c71;
+}
+.reviews__block-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.reviews__title-info {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #1c1c1c;
+}
+.reviews__text-info {
+  text-align: left;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 100%;
+  color: #1c1c1c;
+  opacity: 0.3;
+  margin-top: .4rem;
+}
+
+.reviews__image-icon {
+  width: 6.1rem;
+  height: 6.1rem;
+  transition: .4s ease;
+}
+
+.reviews__image-icon:hover {
+  width: 7rem;
+  height: 7rem;
+}

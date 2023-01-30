@@ -91,14 +91,6 @@
   position: absolute;
   top: -15rem;
   right: -15rem;
-  animation: imageAnim 60s infinite linear;
+  animation: textAnim 60s infinite linear;
 }
 
-@keyframes imageAnim {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}

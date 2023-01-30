@@ -210,12 +210,3 @@
   overflow: visible;
   transform: translateY(0);
 }
-
-@keyframes textAnim {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}

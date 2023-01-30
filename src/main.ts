@@ -8,7 +8,7 @@ import { slidingCompImages } from "./components/composition"
 document.addEventListener("DOMContentLoaded", () => {
   slidingIntro().controller.control = slidingImageIntro()
   slidingImageIntro().controller.control = slidingIntro()
-
+  
   slidingTicker()
   scrollingAnimation()
   slidingCompImages({

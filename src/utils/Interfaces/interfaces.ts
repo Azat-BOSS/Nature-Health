@@ -3,4 +3,11 @@ interface ICategory {
   textLink: string
 }
 
-export type { ICategory }
+interface ICompArg {
+  sectionClass: string, 
+  blockClass: string, 
+  pagination: string, 
+  swiperBullets: string
+}
+
+export type { ICategory, ICompArg }
