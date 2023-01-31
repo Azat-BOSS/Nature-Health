@@ -20,8 +20,9 @@
 }
 
 .header__logo {
-  width: 9.4rem;
-  height: 3.6rem;
+  width: 10rem;
+  height: 4rem;
+  margin-right: 10rem;
 }
 
 .header__button {

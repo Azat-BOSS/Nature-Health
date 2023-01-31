@@ -58,12 +58,24 @@
   margin-top: 7.1rem;
   overflow: hidden;
   column-gap: 2rem;
+  overflow: hidden;
 }
-.news__block {
-}
+
 .news__block-image {
   width: 100%;
   height: auto;
+  transition: .6s ease;
+}
+
+.news__container-image {
+  width: 100%;
+  height: 36.5rem;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.news__block-image:hover {
+  transform: scale(1.1);
 }
 .news__block-data {
   background: #f7f7f7;
