@@ -12,7 +12,7 @@ export const slidingCompImages = (config: ICompArg): any => {
 
   new Swiper(`.${blockClass}`, {
     effect: "fade",
-    speed: 1500,
+    speed: 700,
     fadeEffect: {
       crossFade: true
     },

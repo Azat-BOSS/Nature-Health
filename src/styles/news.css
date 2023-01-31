@@ -1,0 +1,105 @@
+.news {
+  margin-top: 14rem;
+}
+.news__upper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.news__upper-left {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-between;
+  width: 100%;
+}
+.news__title {
+  font-size: 6rem;
+}
+.news__button-blog {
+  border: none;
+  font-size: 2rem;
+  color: #1c1c1c31;
+  transition: 1s ease;
+  position: relative;
+}
+
+.news__button-blog::after {
+  transition: 1s ease;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 93%;
+  border: 1px solid #1c1c1c31;
+  opacity: 1;
+}
+
+.news__button-blog:hover {
+  color: black;
+}
+
+.news__button-blog:hover::after {
+  width: 0;
+  opacity: 0;
+  border: 1px solid black;
+}
+
+.news__button-watch {
+  border: 1px solid rgb(0, 0, 0);
+  width: 11.9rem;
+  height: 3.6rem;
+}
+
+.news__upper-buttons {
+  display: flex;
+}
+
+.news__main-block {
+  display: flex;
+  margin-top: 7.1rem;
+  overflow: hidden;
+  column-gap: 2rem;
+}
+.news__block {
+}
+.news__block-image {
+  width: 100%;
+  height: auto;
+}
+.news__block-data {
+  background: #f7f7f7;
+  border-radius: 12px;
+  width: 7rem;
+  height: 2.5rem;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 100%;
+  color: #1c1c1c;
+  margin-top: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.news__block-lower {
+  margin-top: 1.6rem;
+}
+
+.news__block-title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 100%;
+  color: #1c1c1c;
+}
+
+.news__text-lower {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 120%;
+  color: #1c1c1c;
+  margin-top: 2rem;
+}
